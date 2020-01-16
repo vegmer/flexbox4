@@ -106,27 +106,60 @@ body {
   padding: 2em;
   font-size: 1.25em;
   height: 100%;
+  background-color: #303030;
 }
 
 .wrapper {
   /*add display:flex and set justify-content to space-between*/
   font-weight: 700;
   display: flex;
-  justify-content: space-between;
+  -webkit-flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.intro {
+  justify: left;
+  color: #808080;
+  border-bottom: 1px solid white;
+  padding-bottom: 50px;
+}
+
+.hola {
+  font-size: 4em;
+  padding: 0 0 30px 0;
+  font-family: 'Pacifico', cursive;
+}
+
+.div-0{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  color: #FFFFFF;
+}
+
+span {
+  font-weight: bold;
+}
+
+.content-divs {
+  display: flex;
+  -webkit-flex-direction: row;
+  justify-content: space-around;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  color: #FFCCFF;
+  padding-top: 20px;
 }
 
 .div-1, .div-2, .div-3 {
-  /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
-  color: #fff;
-  line-height: 1.5em;
-  font-size: 1.6em;
-  background-color: #f16059;
   height: 300px;
   width: 30%;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-around;
+  align-items: flex-start;
 }
+
+
 
 
 
